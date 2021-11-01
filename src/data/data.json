@@ -1,0 +1,258 @@
+{
+    "projects" : [
+        {
+            "id": "6",
+            "name" : "Bookly",
+            "subName" : "E-Commerce (Solo Project)" ,
+            "image" : "bookly.PNG",
+            "video" : "bookly.mkv",
+            "description" : "Bookly is a complete e-commerce website. You can discover its functionalities as a normal user through this link : https://bookly-shop.herokuapp.com/. In the demo, you can discover the functionalities for the admin as it is not accessible for normal users.",
+            "technologies" : [{
+                "id" : "1",
+                "name": "MongoDB",
+                "image": "mongodb.svg"
+            },{
+                "id" : "2",
+                "name": "NodeJS",
+                "image": "node.svg"
+            },
+            {
+                "id" : "3",
+                "name": "Express",
+                "image": "express.svg"
+            },
+            {
+                "id" : "4",
+                "name": "ReactJS",
+                "image": "react.svg"
+            },
+            {
+                "id" : "5",
+                "name": "Redux",
+                "image": "redux.svg"
+            },
+            {
+                "id" : "6",
+                "name": "Bootstrap",
+                "image": "bootstrap.svg"
+            }],
+            "tasks" : ""
+        },
+        {
+            "id": "5",
+            "name" : "Vertica",
+            "subName" : "Thesis Project (Group Work)" ,
+            "image" : "vertica.png",
+            "video" : "vertica.mp4",
+            "description" : "Vertica project is about creating a community of people who are interested in gardening to help them communicate with each other. By this way, they can easily find advice and share their experience.",
+            "technologies" : [{
+                "id" : "1",
+                "name": "MongoDB",
+                "image": "mongodb.svg"
+            },{
+                "id" : "2",
+                "name": "NodeJS",
+                "image": "node.svg"
+            },
+            {
+                "id" : "3",
+                "name": "Express",
+                "image": "express.svg"
+            },
+            {
+                "id" : "4",
+                "name": "ReactJS",
+                "image": "react.svg"
+            },
+            {
+                "id" : "5",
+                "name": "Redux",
+                "image": "redux.svg"
+            },
+            {
+                "id" : "6",
+                "name": "Bootstrap",
+                "image": "bootstrap.svg"
+            },
+            {
+                "id" : "7",
+                "name": "Firebase",
+                "image": "firebase.svg"
+            }],
+            "tasks" : "Dealing with the details of the forum from the backend to the frontend."
+        },
+        {
+            "id": "4",
+            "name" : "My Unspalsh",
+            "subName" : "Dev Challenge (Solo Work)" ,
+            "image" : "myUnsplash.PNG",
+            "video" : "my-unsplash.mp4",
+            "description" : "My unsplash is a clone of unsplash.com. It was a solo project where you should follow and fulfill the user stories below : <ul><li>I can see a list of photos in the masonry layout that I have added.<\/li><li>I can add a new photo to the list - the new photo should be on top of the list.<\/li><li>I can search for photos by label.</li><li>When I hover a photo, I can see a label and a delete button.<\/li><li>I can delete images.<\/li></ul><strong>The biggest challenge<\/strong> of this project was to stick to the layout and design predefined.",
+            "technologies" : [{
+                "id" : "8",
+                "name": "Angular",
+                "image": "angular.svg"
+            }, 
+            {
+                "id" : "2",
+                "name": "NodeJS",
+                "image": "node.svg"
+            },
+            {
+                "id" : "3",
+                "name": "Express",
+                "image": "express.svg"
+            },
+            {
+                "id" : "11",
+                "name": "Postgresql",
+                "image": "postgresql.svg"
+            }],
+            "tasks" : ""
+        },
+        {
+            "id": "3",
+            "name" : "Nanny",
+            "subName" : "Green Field Project (Group Work)" ,
+            "image" : "nanny.PNG",
+            "video" : "nanny.mp4",
+            "description" : "Nanny project is a website where we facilitate parents'life by providing nannies'contacts to every parent joining the website. It was the first project dealing with a frontend/backend, and the first opportunity to apply a little bit of knowledge and discover many new things and apply them in the project. It was very challenging to respect the deadline (6 days) and present a useful project.",
+            "technologies" : [{
+                "id" : "1",
+                "name": "MongoDB",
+                "image": "mongodb.svg"
+            },{
+                "id" : "2",
+                "name": "NodeJS",
+                "image": "node.svg"
+            },
+            {
+                "id" : "3",
+                "name": "Express",
+                "image": "express.svg"
+            },
+            {
+                "id" : "4",
+                "name": "ReactJS",
+                "image": "react.svg"
+            },
+            {
+                "id" : "5",
+                "name": "Bootstrap",
+                "image": "bootstrap.svg"
+            }],
+            "tasks" : "Backend / Authentication-Authorization / Frontend functionalities."
+        },
+        {
+            "id": "2",
+            "name" : "Quiz Song Game",
+            "subName" : "First Project (Pair Work)" ,
+            "image" : "quizGame.png",
+            "video" : "quiz-game.mp4",
+            "description" : "Quiz Game was the first project to get our hands in the dough. It was very challenging as a very first experience, with just two days as a margin of time. It's a game in which you listen to a 15 seconds of a song music and, you should guess its name and choose an answer from the three suggestions provided.",
+            "technologies" : [{
+                "id" : "1",
+                "name": "HTML",
+                "image": "html.svg"
+            },
+            {
+                "id" : "2",
+                "name": "CSS",
+                "image": "css.svg"
+            }, 
+            {
+                "id" : "3",
+                "name": "Javascript",
+                "image": "javascript.svg"
+            },
+            {
+                "id" : "4",
+                "name": "Jquery",
+                "image": "jquery.svg"
+            }],
+            "tasks" : "Functionality of the application."
+        },
+        {
+            "id": "1",
+            "name" : "Covid-19 Tracker",
+            "subName" : "Solo Work" ,
+            "image" : "covid-19-tracker.PNG",
+            "video" : "covid-19.mkv",
+            "description" : "As his name indicated, this project tracks the new cases, recovered and deaths of covid-19 of all countries all over the world. I've used disease.sh's API to get all the data needed.",
+            "technologies" : [ {
+                "id" : "1",
+                "name": "ReactJS",
+                "image": "react.svg"
+            },
+            {
+                "id" : "2",
+                "name": "Bootstrap",
+                "image": "bootstrap.svg"
+            }],
+            "tasks" : ""
+        }
+    ],
+
+    "technologies" : [
+        {
+            "id" : "1",
+            "name": "HTML",
+            "image": "html.svg"
+        },
+        {
+            "id" : "2",
+            "name": "CSS",
+            "image": "css.svg"
+        },
+        {
+            "id" : "3",
+            "name": "Bootstrap",
+            "image": "bootstrap.svg"
+        },
+        {
+            "id" : "4",
+            "name": "Javascript",
+            "image": "javascript.svg"
+        },
+        {
+            "id" : "5",
+            "name": "Git",
+            "image": "git.svg"
+        },
+        {
+            "id" : "6",
+            "name": "ReactJS",
+            "image": "react.svg"
+        },
+        {
+            "id" : "7",
+            "name": "Redux",
+            "image": "redux.svg"
+        },
+        {
+            "id" : "8",
+            "name": "Angular",
+            "image": "angular.svg"
+        },
+        {
+            "id" : "9",
+            "name": "NodeJS",
+            "image": "node.svg"
+        },
+        {
+            "id" : "10",
+            "name": "Express",
+            "image": "express.svg"
+        },
+        {
+            "id" : "11",
+            "name": "Postgresql",
+            "image": "postgresql.svg"
+        },
+        {
+            "id" : "12",
+            "name": "MongoDB",
+            "image": "mongodb.svg"
+        }
+    ]
+}
