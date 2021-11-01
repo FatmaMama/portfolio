@@ -68,7 +68,7 @@ export default function Contact() {
 
                         </div>
 
-                        <input type="hidden" name="_next" value="https://fatmamama.github.io/projects/thankyou.html"/>
+                        <input type="hidden" name="_next" value="https://fatmamama.github.io/src/screens/Thank.js"/>
                         <input type="hidden" name="_captcha" value="false"/>
 
                         <div className="row">
