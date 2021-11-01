@@ -21,7 +21,7 @@ export default function Projects() {
                     {data.projects.map(project => (
                         <div key={project.id} className="col-lg-4 col-md-6 text-center">
                             <div className="card border-0 mb-4">
-                                <img className="card-image" src={`images/${project.image}`}/>
+                                <img className="card-image" src={`images/${project.image}`} alt={project.name}/>
                                 <div className="card-body">
                                         <h6 className="card-title text-light">{project.name}</h6>
                                         <Link to={`/project/${project.id}`}><button type="button" className="btn btn-outline">Discover</button></Link>

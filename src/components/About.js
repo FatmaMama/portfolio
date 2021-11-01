@@ -18,7 +18,7 @@ export default function About() {
 
                 <div className="row">
                     <div className="col-lg-5 d-flex justify-content-center align-items-center">
-                        <img id="me" src="images/Mee-bg.png" height="350" />
+                        <img id="me" alt="me" src="images/Mee-bg.png" height="350" />
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center mt-lg-4">
                         <h3>I'm Fatma and I'm a {' '}<span className="pink">Developer</span> .</h3>

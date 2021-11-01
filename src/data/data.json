@@ -87,7 +87,7 @@
             "subName" : "Dev Challenge (Solo Work)" ,
             "image" : "myUnsplash.PNG",
             "video" : "my-unsplash.mp4",
-            "description" : "My unsplash is a clone of unsplash.com. It was a solo project where you should follow and fulfill the user stories below : <ul><li>I can see a list of photos in the masonry layout that I have added.<\/li><li>I can add a new photo to the list - the new photo should be on top of the list.<\/li><li>I can search for photos by label.</li><li>When I hover a photo, I can see a label and a delete button.<\/li><li>I can delete images.<\/li></ul><strong>The biggest challenge<\/strong> of this project was to stick to the layout and design predefined.",
+            "description" : "My unsplash is a clone of unsplash.com. It was a solo project where you should follow and fulfill the user stories below : I can see a list of photos in the masonry layout that I have added. I can add a new photo to the list - the new photo should be on top of the list. I can search for photos by label. When I hover a photo, I can see a label and a delete button. I can delete images. The biggest challenge of this project was to stick to the layout and design predefined.",
             "technologies" : [{
                 "id" : "8",
                 "name": "Angular",
