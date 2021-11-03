@@ -246,3 +246,8 @@ main {
     font-size: 3rem;
     font-weight: bold;
 }
+
+/* Thank */
+.thank {
+    height: 75vh;
+}

@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from "emailjs-com"
+import { useHistory } from 'react-router';
 
 export default function Contact() {
+
+    const form = useRef();
+    const history = useHistory();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_10uckaw', 'template_c0lmx4d', form.current, 'user_d6ngejEjcVr4Okpx082ss')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+        history.push('/thank')
+    }
+
     return (
         <section className="contact" id="contact">
             <div className="container py-5">
-                <form  action="https://formsubmit.co/fatma_mama@hotmail.fr" method="POST">
+                <form ref={form} onSubmit={sendEmail}>
                     <div className="row mb-3">
                         <div className="col-lg-8 text-center m-auto">
                             <h1>
@@ -52,7 +70,7 @@ export default function Contact() {
                         <div className="col-lg-7 col-md-7">
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <input type="text" className="form-control bg-light" placeholder="Your Name" name="name" required/>
+                                    <input type="text" className="form-control bg-light mb-sm-2" placeholder="Your Name" name="name" required/>
                                 </div>
 
                                 <div className="col-lg-6">
@@ -68,8 +86,7 @@ export default function Contact() {
 
                         </div>
 
-                        <input type="hidden" name="_next" value="https://fatmamama.github.io/portfolio/#/thank"/>
-                        <input type="hidden" name="_captcha" value="false"/>
+                    
 
                         <div className="row">
                             <div className="col-lg-5 m-auto text-center mt-3">
