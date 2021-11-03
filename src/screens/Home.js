@@ -21,7 +21,7 @@ export default function Home() {
                         </div>
 
                         <div className="col-md-4 pt-lg-0 pt-md-4">
-                            <img  className="img-fluid" src="images//illustration.png" alt="logo" />
+                            <img  className="img-fluid" src="images/illustration.png" alt="logo" />
                         </div>
                     </div>
                 </div>

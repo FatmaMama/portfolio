@@ -15,8 +15,8 @@ export default function ProjectDetails({match}) {
 
                 <div className="container__subtitle pb-4">{project.subName}</div>
 
-                <video width="100%" height="auto" poster={`../images/${project.image}`} controls>
-                    <source src={`../demos/${project.video}`} type="video/mp4" />
+                <video width="100%" height="auto" poster={`images/${project.image}`} controls>
+                    <source src={`demos/${project.video}`} type="video/mp4" />
                 </video>
 
 
@@ -24,7 +24,7 @@ export default function ProjectDetails({match}) {
                     <ul>
                         <li className="py-3">
                             <span className="container__bold">Description : </span>
-                            {JSON.parse(JSON.stringify(project.description))}
+                            {project.description}
                         </li>
 
                         {project.tasks !== '' &&  (
@@ -39,7 +39,7 @@ export default function ProjectDetails({match}) {
                             <div className="row">
                                 {project.technologies.map(technology => (
                                     <div key={technology.id} className="col-lg-1 col-md-2 col-sm-2">
-                                        <img  className="tech" alt={technology.name} src={`../images/${technology.image}`}/>
+                                        <img  className="tech" alt={technology.name} src={`images/${technology.image}`}/>
                                     </div>
                                 ))}
                             
