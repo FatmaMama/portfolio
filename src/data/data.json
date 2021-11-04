@@ -1,6 +1,26 @@
 {
     "projects" : [
         {
+            "id": "7",
+            "name" : "Mix-Or-Match",
+            "subName" : "Memory Game" ,
+            "image" : "memory-game.PNG",
+            "video" : "memory-game.mkv",
+            "description" : "Mix-Or-Match is a memory game in which you try to match similar cards.In this kind of projects, you try to translate the logic of the game to code which makes it funny and diffrent from other projects.",
+            "technologies" : [
+            {
+                "id" : "1",
+                "name": "ReactJS",
+                "image": "react.svg"
+            },
+            {
+                "id" : "2",
+                "name": "Bootstrap",
+                "image": "bootstrap.svg"
+            }],
+            "tasks" : ""
+        },
+        {
             "id": "6",
             "name" : "Bookly",
             "subName" : "E-Commerce (Solo Project)" ,
