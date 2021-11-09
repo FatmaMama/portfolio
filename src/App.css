@@ -251,3 +251,17 @@ main {
 .thank {
     height: 75vh;
 }
+
+@media (max-width : 450px) {
+    .container__title {
+        font-size: 2.5rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .dash {
+        font-size: 1.6rem;
+    }
+}

@@ -10,7 +10,7 @@ export default function ProjectDetails({match}) {
     
     return (
         <main>
-            <div className="container d-flex flex-column align-items-center">
+            <div className="container d-flex flex-column align-items-center pt-5">
                 <div className="container__title">{project.name}</div>
 
                 <div className="container__subtitle pb-4">{project.subName}</div>
@@ -38,7 +38,7 @@ export default function ProjectDetails({match}) {
                             <span className="container__bold">Technologies : </span>
                             <div className="row">
                                 {project.technologies.map(technology => (
-                                    <div key={technology.id} className="col-lg-1 col-md-2 col-sm-2">
+                                    <div key={technology.id} className="col-lg-1 col-md-2 col-sm-4 col-6">
                                         <img  className="tech" alt={technology.name} src={`images/${technology.image}`}/>
                                     </div>
                                 ))}

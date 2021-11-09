@@ -9,10 +9,10 @@ export default function Projects() {
             <div className="container py-5">
                 <div className="row mb-5">
                 <div className="col-lg-5 text-center m-auto">
-                    <h1 className="text-light">
-                        <span className="dash p-4">----</span>
+                    <h1 className="text-light section-title">
+                        <span className="dash p-4">---</span>
                         <strong>My Projects</strong>
-                        <span className="dash p-4">----</span>
+                        <span className="dash p-4">---</span>
                     </h1>
                 </div>
                 </div>

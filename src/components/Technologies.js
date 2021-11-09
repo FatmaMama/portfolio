@@ -7,10 +7,10 @@ export default function Technologies({technologies}) {
             <div className="container py-5">
                 <div className="row mb-4">
                 <div className="col-lg-6 text-center m-auto">
-                    <h1 className="text-light" >
-                        <span className="dash p-4">----</span>
+                    <h1 className="text-light section-title" >
+                        <span className="dash p-4">---</span>
                         <strong>Technologies</strong>
-                        <span className="dash p-4">----</span>
+                        <span className="dash p-4">---</span>
                     </h1>
                 </div>
                 </div>

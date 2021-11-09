@@ -8,11 +8,11 @@ import Contact from '../components/Contact';
 export default function Home() {
     return (
         <Fragment>
-            <section className="home pt-5" id="home">
+            <section className="home pt-md-5 pt-1" id="home">
                <div className="container pt-5" >
                     <div className="row p-5">
 
-                        <div className="col-md-8 pt-5 pt-md-1">
+                        <div className="col-md-8  pt-md-1">
                             <h3 className="text-light pt-5">Hello, my name is</h3>
                             <h1 className="text-light fw-bold my-name" >Fatma Mama</h1>
                             <h3 className="text-light">And I am a {' '} 

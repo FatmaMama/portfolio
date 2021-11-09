@@ -7,10 +7,10 @@ export default function About() {
                 <div className="row mb-3">
                 <div className="col-lg-6 text-center m-auto">
                 
-                    <h1>
-                        <span className="dash p-4">----</span>
+                    <h1 className="section-title">
+                        <span className="dash p-4">---</span>
                         <strong>About me</strong>
-                        <span className="dash p-4">----</span>
+                        <span className="dash p-4">---</span>
                     </h1>
                     
                 </div>
