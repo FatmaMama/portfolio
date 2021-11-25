@@ -24,7 +24,7 @@ export default function ProjectDetails({match}) {
                     <ul>
                         <li className="py-3">
                             <span className="container__bold">Description : </span>
-                            {project.description}
+                            <div dangerouslySetInnerHTML={{ __html: project.description }} />
                         </li>
 
                         {project.tasks !== '' &&  (

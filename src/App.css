@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #f1f1f1;
@@ -115,8 +116,7 @@ footer {
 }
 
 .tech {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
     padding: 0 0.5rem;
 }
 
@@ -263,5 +263,9 @@ main {
 
     .dash {
         font-size: 1.6rem;
+    }
+
+    .tech { 
+        width : 4rem
     }
 }

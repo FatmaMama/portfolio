@@ -26,7 +26,7 @@
             "subName" : "E-Commerce (Solo Project)" ,
             "image" : "bookly.PNG",
             "video" : "bookly.mkv",
-            "description" : "Bookly is a complete e-commerce website. You can discover its functionalities as a normal user through this link : https://bookly-shop.herokuapp.com/. In the demo, you can discover the functionalities for the admin as it is not accessible for normal users.",
+            "description" : "Bookly is a complete e-commerce website. You can discover its functionalities as a normal user through this link : <a href='https://bookly-shop.herokuapp.com/'>https://bookly-shop.herokuapp.com/</a>. In the demo, you can discover the functionalities for the admin as it is not accessible for normal users.",
             "technologies" : [{
                 "id" : "1",
                 "name": "MongoDB",
@@ -107,7 +107,7 @@
             "subName" : "Dev Challenge (Solo Work)" ,
             "image" : "myUnsplash.PNG",
             "video" : "my-unsplash.mp4",
-            "description" : "My unsplash is a clone of unsplash.com. It was a solo project where you should follow and fulfill the user stories below : I can see a list of photos in the masonry layout that I have added. I can add a new photo to the list - the new photo should be on top of the list. I can search for photos by label. When I hover a photo, I can see a label and a delete button. I can delete images. The biggest challenge of this project was to stick to the layout and design predefined.",
+            "description" : "My unsplash is a clone of unsplash.com. It was a solo project where you should follow and fulfill the user stories below : <ul><li>I can see a list of photos in the masonry layout that I have added.</li><li> I can add a new photo to the list - the new photo should be on top of the list. </li><li>I can search for photos by label. </li><li>When I hover a photo, I can see a label and a delete button. </li><li>I can delete images. <div>The biggest challenge of this project was to stick to the layout and design predefined.</div>",
             "technologies" : [{
                 "id" : "8",
                 "name": "Angular",
