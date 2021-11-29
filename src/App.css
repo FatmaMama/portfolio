@@ -115,9 +115,18 @@ footer {
     background-color: #212121;
 }
 
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #373737;
+}
+
 .tech {
+    /* display: block; */
     width: 5rem;
-    padding: 0 0.5rem;
+    padding: 1.8rem;
 }
 
 .tech:hover{
@@ -125,10 +134,17 @@ footer {
     animation: mover 0.5s infinite  alternate;
 }
 
+.tech-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+
 .tech__container {
     position: relative;
-    
+    background-color: #373737;
 }
+
 
 .tech__container:hover::after {
     display: block;

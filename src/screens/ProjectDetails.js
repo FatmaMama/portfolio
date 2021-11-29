@@ -36,10 +36,11 @@ export default function ProjectDetails({match}) {
                    
                         <li className="py-3">
                             <span className="container__bold">Technologies : </span>
-                            <div className="row">
+                            <div className="tech-box">
                                 {project.technologies.map(technology => (
-                                    <div key={technology.id} className="col-lg-1 col-md-2 col-sm-4 col-6">
+                                    <div key={technology.id} className="technology " data-tooltip={technology.name}>
                                         <img  className="tech" alt={technology.name} src={`images/${technology.image}`}/>
+                                        <div>{technology.name}</div>
                                     </div>
                                 ))}
                             

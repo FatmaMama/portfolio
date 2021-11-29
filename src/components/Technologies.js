@@ -16,10 +16,11 @@ export default function Technologies({technologies}) {
                 </div>
 
                 <div className="container m-auto pt-3">
-                    <div className="row">
+                    <div className="tech-box">
                         {technologies.map(technology => (
-                            <div key={technology.id} className="tech__container col-lg-1 col-md-2 col-sm-2 col-2 mb-5" data-tooltip={technology.name}>
-                                <img  className="tech" alt={technology.name} src={`./images/${technology.image}`} />
+                            <div key={technology.id} className="tech__container mb-5" data-tooltip={technology.name}>
+                                <img  className="tech" alt={technology.name} src={`images/${technology.image}`} />
+                                
                             </div>
                         ))}
                     </div>

@@ -1,6 +1,31 @@
 {
     "projects" : [
         {
+            "id": "8",
+            "name" : "Landing Pages",
+            "subName" : "Advanced css-sass" ,
+            "image" : "omnifood.PNG",
+            "video" : "landing-pages.mkv",
+            "description" : "This project is a serie of 4 landing pages in which I wanted to use and practice Sass and Css (Flexbox, Grid, Animations, Responsive design...) in order to improve my level in design, try and discover new fatures. <p>You can visit the 4th page 'Omnifood Project' through this link : <a href='https://omnifood-fatma.netlify.app/'>https://omnifood-fatma.netlify.app/</a></p>",
+            "technologies" : [
+            {
+                "id" : "1",
+                "name": "HTML",
+                "image": "html.svg"
+            },
+            {
+                "id" : "2",
+                "name": "CSS",
+                "image": "css.svg"
+            },
+            {
+                "id" : "3",
+                "name": "sass",
+                "image": "sass.svg"
+            }],
+            "tasks" : ""
+        },
+        {
             "id": "7",
             "name" : "Mix-Or-Match",
             "subName" : "Memory Game" ,
@@ -273,6 +298,11 @@
             "id" : "12",
             "name": "MongoDB",
             "image": "mongodb.svg"
+        },
+        {
+            "id" : "13",
+            "name": "Sass",
+            "image": "sass.svg"
         }
     ]
 }
