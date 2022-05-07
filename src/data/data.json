@@ -6,7 +6,7 @@
             "subName" : "E-Commerce Website" ,
             "image" : "assala-capture.PNG",
             "video" : "al-assala-part1.mkv",
-            "description" : "This project is a full e-commerce website for traditional tunisian clothes ",
+            "description" : "This project is a full e-commerce website for traditional tunisian clothes.",
             "technologies" : [
                 {
                     "id" : "1",
