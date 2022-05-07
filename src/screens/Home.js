@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { useEffect, useRef } from 'react';
 import data from '../data/data.json'
 import About from '../components/About';
 import Projects from '../components/Projects';

@@ -1,6 +1,50 @@
 {
     "projects" : [
         {
+            "id": "9",
+            "name" : "Al-Assala",
+            "subName" : "E-Commerce Website" ,
+            "image" : "assala-capture.PNG",
+            "video" : "al-assala-part1.mkv",
+            "description" : "This project is a full e-commerce website for traditional tunisian clothes ",
+            "technologies" : [
+                {
+                    "id" : "1",
+                    "name": "MongoDB",
+                    "image": "mongodb.svg"
+                },{
+                    "id" : "2",
+                    "name": "NodeJS",
+                    "image": "node.svg"
+                },
+                {
+                    "id" : "3",
+                    "name": "Express",
+                    "image": "express.svg"
+                },
+                {
+                    "id" : "4",
+                    "name": "ReactJS",
+                    "image": "react.svg"
+                },
+                {
+                    "id" : "5",
+                    "name": "Redux",
+                    "image": "redux.svg"
+                },
+                {
+                    "id" : "6",
+                    "name": "Bootstrap",
+                    "image": "bootstrap.svg"
+                },
+                {
+                    "id" : "7",
+                    "name": "sass",
+                    "image": "sass.svg"
+                }],
+            "tasks" : ""
+        },
+        {
             "id": "8",
             "name" : "Landing Pages",
             "subName" : "Advanced css-sass" ,

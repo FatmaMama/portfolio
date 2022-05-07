@@ -60,10 +60,6 @@ footer {
     font-size: 4rem;
 }
 
-Typing {
-    display: inline-block;
-}
-
 @media (max-width : 768px){
     .my-name {
         font-size: 3rem;
