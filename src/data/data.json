@@ -4,8 +4,8 @@
             "id": "9",
             "name" : "Al-Assala",
             "subName" : "E-Commerce Website" ,
-            "image" : "assala-capture.PNG",
-            "video" : "al-assala-part1.mkv",
+            "image" : "assala.PNG",
+            "video" : "assala-part1.mkv",
             "description" : "This project is a full e-commerce website for traditional tunisian clothes.",
             "technologies" : [
                 {
